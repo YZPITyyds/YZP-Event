@@ -1,0 +1,48 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/login.jpg) no-repeat center ;
+    background-size: cover;
+}
+.loginAndReg{
+    width: 400px;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* C3的居中 */
+    transform: translate(-50%,-50%);
+}
+.login-title{
+    height: 60px;
+    background: url(../images/login_title.png)no-repeat center;
+}
+.regBox{
+    display: none;
+}
+.layui-form{
+    padding: 0 30px;
+}
+.links{
+    display: flex;
+    margin-top: 15px;
+    justify-content: flex-end;
+}
+.links a,.links{
+    font-size: 12px;
+    color: #fff;
+}
+.layui-form-item{
+    position: relative;
+}
+.layui-icon{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.layui-form-item .layui-input{
+    padding-left: 36px;
+}
