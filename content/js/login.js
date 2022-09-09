@@ -66,7 +66,7 @@ $(function(){
         // 登录成功后，将token保存在localstorage中
         localStorage.setItem('token',res.token)
         // 登录跳转
-        location.href='/index.html'
+        location.href='../大事件项目/index.html'
     })
    })
 })
